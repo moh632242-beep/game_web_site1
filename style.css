@@ -1,0 +1,359 @@
+.header1{
+    background-color: rgb(0, 54, 78);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header1 h1 {
+    color: white;
+    padding-left: 10px;   
+}
+صندوق البحث
+.searchbox {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.header1 img{
+    border-radius: 30px;
+}
+.header1 a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left:20px ;
+    font-weight: bold;
+}
+.header1 a:hover{
+    background-color:rgb(181, 213, 223) ;
+    padding: 5px;
+    border-radius: 15px;
+    color: rgb(0, 54, 78);
+}
+
+
+
+.header2{
+     background-color: rgb(0, 54, 78);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header2 h2 {
+    color: white;
+    padding-left: 10px;
+}
+.links-admin a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left:20px ;
+    font-weight: bold;
+}
+.links-admin a:hover{
+    background-color:rgb(181, 213, 223) ;
+    padding: 5px;
+    border-radius: 15px;
+    color: rgb(0, 54, 78);
+}
+.main2{
+    background-color:rgb(181, 213, 223);
+    border-radius: 15px;
+    padding: 10px ;
+    margin-top: 20px;
+    display: block;
+    width: 50%;
+box-shadow: black;
+
+}
+.main2 h3{
+    color: rgb(0, 54, 78);
+    font-weight: bolder;
+}
+.admin-section input{
+    border-radius: 5px;
+    padding: 5px;
+    font-size:bold;
+}                                                                                                                                                                                                   
+.admin-section button{
+    padding: 3px;
+    border-radius: 10px;
+    color: rgb(181, 213, 223);
+    background-color:rgb(0, 54, 78) ;
+    margin-top: 10px;
+    font-size:medium;
+    font-weight: bold;
+}
+.admin-section button:hover{
+    color:rgb(0, 54, 78) ;
+    background-color: rgb(181, 213, 223);
+}
+
+
+
+
+.main3{
+    margin-top: 10px;
+    background-color:rgb(0, 54, 78) ;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+.main3 h3{
+    color: rgb(181, 213, 223);
+}
+.main3 input{
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+}
+.but-accept button{
+margin-bottom: 5px;
+}
+.but-accept a{
+   color: rgb(181, 213, 223) ;
+   text-decoration:none;
+   margin: 10px;
+
+}
+.but-accept a:hover{
+    color:rgb(0, 54, 78)  ; 
+    background-color: rgb(181, 213, 223) ;
+    border-radius: 10px;
+    padding: 4px; 
+    font-weight: bold;
+}
+
+
+
+.s-body{
+    background-color:black;
+    color: #fff;
+}
+#s-card{
+    background: #1a1a1a;
+    border: 1px solid #333;
+    transition: 0.3s ease;
+}
+#s-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px  rgb(181, 213, 223);
+    border-color: rgb(181, 213, 223);
+}
+#s-card h5{
+color: #e5e5e5;
+}
+#s-card p{ 
+color: #e5e5e5 ;
+}
+#s-category{
+    color: #e5e5e5;
+}
+#wp-size{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+#wp-size img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
+#login{
+background-color:  rgb(181, 213, 223);
+border-radius: 15px;
+padding: 10px;
+width: 40%;
+margin-top:100px;
+  transition: 0.3s ease;
+  border:black;
+}
+#login:hover{
+     transform: scale(1.05);
+  
+    border-color: goldenrod solid;
+    box-shadow: 0 10px 25px  rgb(181, 213, 223);
+}
+#login h2{
+    color: rgb(0, 54, 78) ;
+    font-weight: bold;
+}
+#login label{
+font-weight: bold;
+color: rgb(0, 54, 78);
+}
+#login input , select{
+    padding: 8px;
+    border-radius: 5px;
+    margin: 9px;
+}
+#login a{
+text-decoration: none;
+color: rgb(0, 54, 78);
+font-weight: bold;
+}
+#login a:hover{
+    background-color: rgb(0, 54, 78);
+    color: rgb(181, 213, 223) ;
+    padding: 5px;
+    border-radius: 5px;
+}
+#login button{
+margin: 9px;
+}
+.b-login{
+    background-image:url("uploads/Welcom\ pic.jpg") ;
+ 
+}
+.b-login img{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.b-login h1{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+
+
+
+
+ #header-car{
+        background-color: rgb(0, 54, 78);
+        padding: 24px;
+        display: flex;
+        justify-content: space-around;
+       }
+       
+        h2{
+        color: rgba(255, 255, 255, 1) ;
+        margin: 30px;
+       }
+      
+       #header-car a{
+        text-decoration: none;
+        color: rgb(181, 213, 223) ;
+        font-weight: bold;
+        margin:5px ;
+       }
+       #header-car a:hover{
+        background-color:  rgb(181, 213, 223);
+        color: rgb(0, 54, 78);
+        border-radius: 8px;
+        padding: 4px;
+       }
+     
+       .body-car{
+       background-color: black;
+       }
+ 
+       #cart{
+         background-color: rgba(37, 37, 37, 1) ;
+         border: 1px solid #333;
+         transition: 0.3s ease;
+       }
+    
+       #cart h5{
+        color: rgba(248, 248, 248, 1) ;
+       }
+       
+       #cart p{
+         color:  rgba(248, 248, 248, 1);
+       }
+    
+       #cart:hover{
+         transform: scale(1.05);
+         box-shadow: 0 10px 25px  rgb(181, 213, 223);
+         border-color: rgb(181, 213, 223);
+       }
+
+
+
+
+
+
+
+
+
+
+        .game-l{
+              background-color: rgb(0, 54, 78);
+        padding: 24px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0px;
+        }
+      .game-l a{
+        text-decoration: none;
+        color: rgb(181, 213, 223) ;
+        font-weight: bold;
+        margin:5px ;
+      }
+      .game-l a:hover{
+         background-color:  rgb(181, 213, 223);
+        color: rgb(0, 54, 78);
+        border-radius: 8px;
+        padding: 4px;
+      }
+      .game-b{
+        background-color: black;
+        padding: 100px;
+       
+      }
+     .game-img{
+     background-image:url("uploads/Welcom\ pic.jpg") ;
+        padding: 15px;
+     }
+     .game-img img{
+        border: rgb(181, 213, 223);
+          box-shadow: 0 10px 25px  rgb(181, 213, 223) ;
+     }
+   
+    .game-t h4{
+     color: rgba(255, 255, 255, 1);
+     font-weight: bold;
+     padding: 5px;
+    }
+    .game-t p{
+        color:  rgba(255, 255, 255, 1);
+    }
+    .desc-game{
+        background-color: rgb(42, 42, 42);
+        padding: 5px;
+        margin: 15px;
+         box-shadow: 0 10px 25px  rgb(181, 213, 223) ;
+        border-color:rgb(181, 213, 223);   
+        width: 50%;
+
+    }
+    .game-t button{
+        padding: 5px;
+        margin: 5px;
+        border-radius: 8px;
+        background-color:rgb(181, 213, 223) ;
+        color: rgb(0, 54, 78) ;
+        font-weight: bold;
+        
+    }
+
+
+
+
+
+
+
+    #carouselExampleCaptions img{
+        height:600px;
+        width: 75%;
+        border-radius: 15px;
+        margin: 5px;
+        
+    }
