@@ -357,3 +357,57 @@ margin: 9px;
         margin: 5px;
         
     }
+
+
+
+
+
+
+
+    .newgame{
+        background-color: #333;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .adall{
+        background-color:rgb(181, 213, 223);
+        margin: 10px;
+        border-radius: 5px;
+        width: 600px;
+    }
+    .adall h3{
+        color: rgb(0, 54, 78);
+        font-weight:bold ;
+    }
+    .adall img{
+        width: 360px;
+        height: 265px;
+        margin: 5px;
+        border-radius: 5px;
+       
+         background-color: rgba(37, 37, 37, 1) ;
+         border: 1px solid #333;
+         transition: 0.3s ease;
+    }
+    .adall img:hover{
+       
+         transform: scale(1.05);
+         box-shadow: 0 10px 25px rgb(0, 54, 78) ;
+         border-color:rgb(0, 54, 78) ;
+    }
+    .adall label{
+        color: rgb(0, 54, 78);
+        font-weight:bold ;
+    }

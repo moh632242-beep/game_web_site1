@@ -23,14 +23,20 @@ session_start();
       <form action="search.php" method="GET">
         <div class="searchbox input-group">
        <input type="search" name="q" class="form-control" placeholder="Search">
-          <button type="submit"  class="btn btn-primary">بحث</button>
+          <button type="submit"  class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></button>
         </div>
       </form>
     </div>
     <div class="col-md-3 text-end">
       <nav class="home-links">
-        <a href="car.php">عربتي</a>
-        <a href="login.php">الحساب</a>
+        <a href="car.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+  <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"/>
+</svg></a>
+        <a href="login.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+</svg></a>
       </nav>
     </div>
   </header>
@@ -44,21 +50,21 @@ session_start();
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/COD WWII.jpg" class="" alt="...">
+          <img src="img/XBOX SHOECASE.jpg" class="" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>حفل جوائز لعبة السنة</h5>
-            <p> (EXPIDTION 33) انتهاء الحفل بفوز </p>
+         <h5>XBOX SHOWCASE</h5>
+            <p> 11/6/2026</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/re9.jpg" class="" alt="...">
+          <img src="img/NEW RE.jpg" class="" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>RESIDENT EVIL 9</h5>
             <p>اللعبة المنتظرة و عودة ليون قادمة في 26 فبراير</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/silent.jpg" class="" alt="...">
+          <img src="img/NEW 007.jpg" class="" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>MG STORE</h5>
             <p>افضل الالعاب بين يديك الان اشتري و عش في عوالم مختلفةمن الخيال و المتعة</p>
@@ -75,6 +81,13 @@ session_start();
       </button>
     </div>
   </center>
+<!--new game upcoming-->
+<div class="newgame">
+  <h3>UPCOMING GAMES</h3>
+</div>
+
+
+<!--البطاقات-->
   <main class="main container mt-4">
     <h2 class="mb-4">الالعاب</h2>
     <div class="row">
@@ -94,7 +107,10 @@ session_start();
                             <h5 class="mt-1 card-title">' . $row['name'] . '</h5>
                             <p class="card-text"><strong>$' . $row['price'] . '</strong></p>
                             <p  class="card-text"> ' . $row['category'] . '</p>
-                             <a href="val.php?id=' . $row['id'] . '" class="btn btn-success">أف للعربة</a>
+                             <a href="val.php?id=' . $row['id'] . '" class="btn btn-success"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+  <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+</svg></a>
                         </div>
                     </div>
                 </div>';

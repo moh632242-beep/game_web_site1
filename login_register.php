@@ -35,7 +35,7 @@ if (isset($_POST['register'])){
          $_SESSION['email']= $user['email'];
 
          if($user['role'] === 'admin'){
-            header("location: admin.php");
+            header("location: adall.php");
          }else{
             header("location: index.php");
          }
